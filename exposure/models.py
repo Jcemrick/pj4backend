@@ -6,6 +6,5 @@ class Incident(models.Model):
     responsetype = models.CharField(max_length=100)
     smokecolor = models.CharField(max_length=100)
     startdate = models.DateTimeField(auto_now=False, auto_now_add=False)
-    time = models.TimeField(auto_now=False, auto_now_add=False)
     exposuretime = models.IntegerField(blank=True, null=True)
     address = models.CharField(max_length=150)
