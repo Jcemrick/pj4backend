@@ -9,7 +9,7 @@ class IncidentSerializer(serializers.HyperlinkedModelSerializer):
             'incidentid', 
             'responsetype',
             'smokepresent',
-            'smokecolor'
+            'smokecolor',
             'startdate', 
             'time', 
             'exposuretime', 
