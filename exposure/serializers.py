@@ -7,9 +7,11 @@ class IncidentSerializer(serializers.HyperlinkedModelSerializer):
         fields = [
             'id', 
             'incidentid', 
-            'responsetype', 
+            'responsetype',
+            'smokepresent',
+            'smokecolor'
             'startdate', 
             'time', 
-            'enddate', 
+            'exposuretime', 
             'address' 
             ]
